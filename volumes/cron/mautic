@@ -1,0 +1,7 @@
+* * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:segments:update --env=prod
+* * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:campaigns:rebuild --env=prod
+* * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:campaigns:trigger --env=prod
+* * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:emails:send --env=prod
+* * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:social:monitoring --env=prod
+0 0 * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:iplookup:download --env=prod
+*/5 * * * * /opt/php56/bin/php /home/ander254/public_html/godofwod.com/mautic/app/console mautic:email:fetch --env=prod
