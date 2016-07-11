@@ -6,7 +6,7 @@ mautic.db:
   volumes:
    - ../volumes/db:/var/lib/mysql
   environment:
-    MYSQL_ROOT_PASSWORD: zayth123
+    MYSQL_ROOT_PASSWORD: M@ut1c
 
 
 mautic.app:
